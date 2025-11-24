@@ -1,0 +1,65 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{ctex}
+\usepackage{graphicx}
+\usepackage{geometry}
+
+% 页面设置
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+% 字体设置 - 全部使用黑体
+\setCJKfamilyfont{hei}{SimHei}
+\newcommand{\hei}{\CJKfamily{hei}}
+
+% 字号定义
+\newcommand{\yihao}{\fontsize{26pt}{39pt}\selectfont}
+\newcommand{\sanhao}{\fontsize{16pt}{24pt}\selectfont}
+
+% 固定宽度标签
+\newcommand{\infolabel}[1]{\makebox[5em][s]{#1}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+
+% 标题
+\vspace*{1cm}
+{\yihao\hei 江\ 苏\ 大\ 学\ 课\ 程\ 报\ 告}
+
+\vspace{2cm}
+
+% 校徽
+\includegraphics[width=5cm]{UJS-source/jsulogo绿色.pdf}
+
+\vspace{2cm}
+
+% 题目
+{\sanhao\hei SPARTA-Net：基于场景感知生成对抗网络的Radio Map补全方法}
+
+\vspace{1.5cm}
+
+\end{center}
+
+% 信息区域
+\begin{flushleft}
+\hspace{3cm}
+\begin{minipage}{12cm}
+{\sanhao\hei
+\infolabel{学号}：\underline{\makebox[7.5cm]{3240601042}}\\[0.8cm]
+\infolabel{班级}：\underline{\makebox[7.5cm]{通信2402}}\\[0.8cm]
+\infolabel{姓名}：\underline{\makebox[7.5cm]{徐奕博}}\\[0.8cm]
+\infolabel{报告类型}：\underline{\makebox[7.5cm]{智能通信技术基础期末任务}}
+}
+\end{minipage}
+\end{flushleft}
+
+\vfill
+
+% 底部日期
+\begin{center}
+{\sanhao\hei 2025年11月}
+\end{center}
+
+\vspace{1cm}
+
+\end{document}
